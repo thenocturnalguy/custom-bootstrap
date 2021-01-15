@@ -4,7 +4,8 @@
   "description": "Package to generate customized bootstrap css files only including whatever component required.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx node-sass style.sass style.css && npx minify style.css > style.min.css"
   },
   "author": "thenocturnalguy",
   "license": "MIT",

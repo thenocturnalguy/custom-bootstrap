@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx node-sass style.sass style.css && npx minify style.css > style.min.css"
+    "build": "npx node-sass style.scss style.css && npx minify style.css > style.min.css"
   },
   "author": "thenocturnalguy",
   "license": "MIT",

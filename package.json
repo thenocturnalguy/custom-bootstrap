@@ -1,0 +1,29 @@
+{
+  "name": "custom-bootstrap-build",
+  "version": "1.0.0",
+  "description": "Package to generate customized bootstrap css files only including whatever component required.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thenocturnalguy",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "minify": "^6.0.1",
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thenocturnalguy/custom-bootstrap.git"
+  },
+  "keywords": [
+    "custom",
+    "bootstrap"
+  ],
+  "bugs": {
+    "url": "https://github.com/thenocturnalguy/custom-bootstrap/issues"
+  },
+  "homepage": "https://github.com/thenocturnalguy/custom-bootstrap#readme"
+}
